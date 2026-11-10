@@ -72,3 +72,8 @@ body,.site-header,footer{background:#38402d}
 .image-caption a{border-color:#7a795d}
 .story-image-main,.story-image-small,.product-photo,.dialog-image-wrap{background:#ead2a2}
 .product-code{color:#38402d}
+
+/* Krim cerah hampir putih untuk latar gambar. */
+.hero-visual{background:#f7f5ee;background-image:linear-gradient(115deg,#fcfbf7,#f7f5ee 67%,#eeeade)}
+.hero-visual:after{background:linear-gradient(#e6e1d4,#f1ede3)}
+.story-image-main,.story-image-small,.product-photo,.dialog-image-wrap{background:#f7f5ee}
