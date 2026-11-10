@@ -18,7 +18,7 @@
   "d1_databases": [{
     "binding": "DB",
     "database_name": "closette-orders",
-    "database_id": "REPLACE_WITH_D1_DATABASE_ID",
+    "database_id": "3486a697-7168-41af-ab6a-ff5de5d40b21",
     "migrations_dir": "migrations"
   }],
   "triggers": { "crons": ["*/5 * * * *"] }
