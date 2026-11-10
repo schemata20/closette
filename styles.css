@@ -28,3 +28,37 @@ h1,h2{font-weight:500;text-transform:uppercase;letter-spacing:-.015em;line-heigh
 @media(max-width:800px){.site-header .brand img{width:72px}.nav-wrap{height:96px}.nav-wrap nav{top:96px}.hero h1{font-size:47px}html{scroll-padding-top:110px}}
 @media(max-width:600px){.site-header .brand img{width:66px}.nav-wrap{height:88px}.nav-wrap nav{top:88px}.footer-top .brand img{width:78px}.hero h1{font-size:46px;line-height:1.15}.story h2,.section-heading h2,.faq-layout h2{font-size:39px}.contact h2{font-size:52px}.dialog-copy h2{font-size:34px}.service-grid h3{font-size:24px}html{scroll-padding-top:102px}}
 @media(max-width:360px){.hero h1{font-size:42px}}
+
+/* Latar hijau zaitun mengikut logo asal Closette. */
+:root{--paper:#38402d;--cream:#46513b;--ink:#f0dbb3;--muted:#d3d9c9;--line:#647157;--white:#ffffff}
+body,.site-header,footer{background:#38402d}
+.site-header{background:rgba(56,64,45,.98)}
+.announcement{background:#2c3324;color:#efdfbf}
+.section-label,.intro-label{color:#ead2a2}
+.intro-label>span{background:#ead2a2}
+.primary{background:#ead2a2;color:#293024}
+.primary:hover{background:#f7e6c5}
+.secondary,.header-cta{border-color:#a5b18d;color:#f0dbb3}
+.secondary:hover,.header-cta:hover{background:#4b573e}
+.nav-wrap nav>a:hover{color:#ffffff}
+.hero-visual{background:#46513b;background-image:linear-gradient(115deg,#515d44,#46513b 67%,#39432f)}
+.hero-visual:after{background:linear-gradient(#35402d,#424d36)}
+.hero-window{opacity:.18;border-color:#d9e0ca40}
+.visual-word{color:#ead2a21a}
+.image-caption{color:#f0dbb3}
+.image-caption a{border-color:#b2bf9b}
+.story-image-main{background:#4a563e}
+.story-image-small{background:#566148}
+.services,.faq-section{background:#303a28}
+.service-grid article,.process{border-color:#667455}
+.process li span{color:#ead2a2;border-color:#889775}
+.product-photo{background:#46513b}
+.product-code{color:#ead2a2}
+.product-detail-label{background:#2c3324;color:#f0dbb3}
+.filters button.active{background:#ead2a2;color:#293024;border-color:#ead2a2}
+.filters button:hover:not(.active){background:#4b573e}
+.faq-list details{border-color:#667455}
+.contact{background:#293222}
+.dialog-image-wrap{background:#46513b}
+.dialog-copy .dialog-price{color:#ead2a2}
+:focus-visible{outline-color:#f4d99e}
