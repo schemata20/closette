@@ -62,3 +62,13 @@ body,.site-header,footer{background:#38402d}
 .dialog-image-wrap{background:#46513b}
 .dialog-copy .dialog-price{color:#ead2a2}
 :focus-visible{outline-color:#f4d99e}
+
+/* Latar krim logo untuk semua ruang paparan gambar produk. */
+.hero-visual{background:#ead2a2;background-image:linear-gradient(115deg,#f3e3c3,#ead2a2 67%,#ddc391)}
+.hero-visual:after{background:linear-gradient(#d5bc8e,#e5cfa7)}
+.hero-window{opacity:.25;border-color:#fff7e340}
+.visual-word{color:#38402d18}
+.image-caption{color:#38402d}
+.image-caption a{border-color:#7a795d}
+.story-image-main,.story-image-small,.product-photo,.dialog-image-wrap{background:#ead2a2}
+.product-code{color:#38402d}
