@@ -1,0 +1,25 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "closette-shop",
+  "main": "server/worker.mjs",
+  "compatibility_date": "2026-11-10",
+  "assets": {
+    "directory": "./dist/client",
+    "binding": "ASSETS",
+    "run_worker_first": true
+  },
+  "build": { "command": "node tools/build.mjs" },
+  "vars": {
+    "SITE_URL": "https://shopclosette.com",
+    "CHECKOUT_ENABLED": "false",
+    "BILLPLZ_MODE": "sandbox",
+    "ADMIN_EMAIL": "schemataworks@gmail.com"
+  },
+  "d1_databases": [{
+    "binding": "DB",
+    "database_name": "closette-orders",
+    "database_id": "REPLACE_WITH_D1_DATABASE_ID",
+    "migrations_dir": "migrations"
+  }],
+  "triggers": { "crons": ["*/5 * * * *"] }
+}
